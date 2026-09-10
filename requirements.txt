@@ -1,0 +1,32 @@
+# SIH 26037 MATLAB project environment manifest
+#
+# This is NOT a pip requirements file.
+# The project is implemented in MATLAB. A MATLAB-compatible runtime is required
+# to execute the .m files.
+
+# Core runtime
+MATLAB
+
+# Core project components supported in the repository
+# (implemented primarily in plain MATLAB)
+
+# Optional / toolbox-backed components present in the repository
+Automated Driving Toolbox
+Computer Vision Toolbox
+Control System Toolbox
+Deep Learning Toolbox
+Image Processing Toolbox
+Lidar Toolbox
+Navigation Toolbox
+Sensor Fusion and Tracking Toolbox
+Simulink
+Stateflow
+
+# Optional 3D demonstration / future integration
+Simulink 3D Animation
+Unreal Engine (for the supported Simulink/Automated Driving 3D workflow)
+
+# Development / regression environment used during repository development
+GNU Octave 8.4.0  # not a MATLAB replacement; MATLAB verification is still required
+
+# No Python, pip, Node.js, database, or cloud runtime is required by the core project.
